@@ -54,5 +54,9 @@ app.use(function(err, req, res, next) {
   });
 });
 
+
+app.get('/simple',function(req,res){
+  res.send("Its Great to get Here");
+});
 module.exports = app;
 
